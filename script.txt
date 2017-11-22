@@ -1,18 +1,8 @@
-﻿# 游戏的脚本可置于此文件中。
-
-# 声明此游戏使用的角色。颜色参数可使角色姓名着色。
-
-define t = Character("Tingting")
-define w = Character("Wendy")
-define g = Character("Girl")
-define m = Character("Mxin")
-
-
-# 游戏在此开始。
-
-label start:
-    
-    play music "classroom.mp3"
+主要角色：
+tingting：主人公的好朋友兼闺蜜
+wendy：主人公
+mxin：wendy的舍友
+引入场景：
     
     scene bg classroom
     with fade
@@ -36,15 +26,14 @@ label start:
     
     hide tingting smile
     with dissolve
+
     "讲毕，她像一阵风一样挽着舍友溜了出去"
     "摇了摇头，我也准备去吃饭了"
 
-label dorm_first_day:
-    
-    play music "dorm.mp3"
-    
-    scene bg dorm
-    with fade
+场景：宿舍
+
+    bg dorm
+    with dissolve
     
     
     w "呼。。。"
@@ -56,12 +45,12 @@ label dorm_first_day:
     "时间过得还真是太快了"
     "到底是怎么和他认识的呢"
 
-    scene bg hid face wit mist
+    bg hide face with mist
     with dissolve
 
     t "要不要一起去爬山呀？"
 
-    scene bg dorm
+    bg dorm
     with dissolve
 
     w "只能说是缘分吧"
@@ -96,11 +85,4 @@ label dorm_first_day:
 
     w "好朋友吗。。"
 
-label north_gate_first_day:
-    
-
-    
-
-    # 此处为游戏结尾。
-
-    return
+场景：北门
