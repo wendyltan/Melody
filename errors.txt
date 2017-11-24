@@ -2,8 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 160: expected menuitem
-    jump yangsheng
-    ^
+File "game/script.rpy", line 11: invalid syntax
+    $ Melody = 0
+     ^
+    
 
 Ren'Py Version: Ren'Py 6.99.13.2919
