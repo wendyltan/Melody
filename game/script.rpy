@@ -6,8 +6,12 @@ define t = Character("Tingting")
 define w = Character("Wendy")
 define g = Character("Girl")
 define m = Character("Mxin")
+define c = Character("Cong")
+define y = Character("Yuan")
 
 init python:
+    
+    #the good feeling for ting of wendy
     Melody = 0
     
 
@@ -363,6 +367,174 @@ label end_mountain:
     
     if not memo:
          "但是不知道为何，我心里有点压抑和后悔的感觉"
+
+label playground:
+    
+    play music "playground.mp3"
+    
+    scene bg playground
+    with fade
+    
+    "体测的日子很快就到了"
+    "今天的天气格外晴朗，可能是时间比较早的关系，太阳光很充足，均匀的洒在操场上"
+    "趁着考试前跑了几天，自我感觉还是很好的"
+    w "这回体测应该好多了吧"
+    "依稀记得上一年虽然也及格了，但是跑完1000之后整个人那种虚脱的感觉"
+    "恶心，想吐，很不好受"
+    "我苦笑了下"
+    "还是太弱啊，都是因为平常太宅了"
+
+    "操场上人还不算多，我决定先把心头最大的石头--1000米解决"
+
+    c "你也来了啊，这么早，wendy"
+
+    y "我们俩刚做完别的项目"
+
+    show cong at left
+    with dissolve
+
+    show yuan at right
+    with dissolve
+
+    "正在说话的是同班的两个同学，cong 和yuan。看来是来的很早的样子，其他项目都已经做完了"
+
+    "我凝神直视跑道"
+
+    w "一起跑1000米？"
+
+    c "可以啊！"
+
+    "yuan 开始做原地热身运动，身为前旗队队员，我觉得对于他跑1000应该并非难事"
+
+    w "yuan等我一下啊待会儿，嘿嘿"
+
+    show yuan shy
+    with dissolve
+
+    y "哈哈没有，我跑的很慢的啦"
+
+    "请要跑1000的同学，过来这边带胸牌和准备！"
+    
+    hide cong 
+    with dissolve
+    hide yuan
+    with dissolve
+
+    "响起了工作人员的声音，我吸了口气，过去领了牌子带上，在跑道上小碎步地做着要出发的姿态"
+
+    "突然，我不经意地瞄到操场入口那里"
+
+    "是tingting"
+
+    "今天扎着个单马尾，穿着普通的短运动裤和运动上衣，可能是觉得待会跑步会出汗吧，脖子上还围着一条毛巾拿来擦汗，这不禁让我想起古装电视剧里面的跑堂的店小二。"
+
+    "她似乎看到了我，朝我挥挥手"
+
+    "各就各位。。预备。。跑！"
+
+    "砰地一声枪响之后，我随众人向前冲去，经过tingting的时候，她似乎朝我说了一句‘加油’？"
+
+    "。。。"
+    "。。。"
+    
+    scene bg sky
+    with fade
+    
+    "我瘫倒在地上，虽然不是瘫倒，但实际也差不了多少。"
+
+    "大口大口吸着气。最后一圈的加速耗尽了我几乎全部体力。"
+
+    "一屁股坐在操场旁的水泥地上。缓和着跳动过快的心。"
+
+    "tingting 递过来一大瓶宝以水。"
+
+    show tingting smile
+    with dissolve
+
+    t "辛苦了！来喝点水吧"
+
+    "我接过水，啪地一声扭开，然后开始吨吨吨。。。"
+
+    t "哈哈你喝慢点！一次喝太多也不是太好哦，最好等缓一会再接着喝"
+
+    "我擦了擦嘴角溢出的水"
+
+    w "倒是你，你跑了没呀"
+
+    "tingting笑道"
+
+    t "还没有啊~我准备跑了"
+
+    w "好，我看着你跑给你加油鼓劲"
+
+    t "别，，！我会不好意思的！"
+
+    w "你就正常的跑就行了，别管我，哈哈"
+
+    "。。。"
+    
+    scene bg running
+    with fade
+
+    "她开始跑了，每个步伐都非常稳，左右臂有规律的在滑动着，马尾随着气流一上一下地跳动着"
+
+    "我坐在操场内看着她缓缓从内圈跑过，女生的话跑800就行了"
+
+    "而我相信她是完全没有问题的"
+
+    scene girl callback memo
+    with fade
+
+    g "wendy，你看我跑的比你快多了吧"
+    g "你追不上我追不上我，嘿嘿~"
+
+    "少女银铃般的笑声和运动场，此情奇景我以前是否在哪里遭遇过?"
+
+    scene bg playground
+    with fade
+
+    t "呼。。！"
+
+    "tingting冲线了，800米也只是一瞬间的事情。"
+
+    w "好棒！快过来歇会吧。"
+
+    "tingting缓缓走过来，脚步竟然有点虚浮，差点崴到脚"
+
+    t "诶？！"
+
+    w "哇。。！你没事吧，吓死我了以为你要跌了"
+    
+    "赶忙做出要扶住她的姿态"
+    
+    "这家伙还真不让人省心，不会是假装轻松的？可能我被她机灵的伪装骗过了"
+
+    show tingting shy
+    with dissolve
+
+    t "没，没有啦，只是刚跑完脚有点软，我歇一会儿就好"
+
+    w "看你满头大汗的，先擦一下吧"
+    
+    menu:
+        "拿起她的毛巾帮忙擦汗":
+            jump use_tower
+        "递上毛巾和水":
+            jump offer_tower
+
+label use_tower:
+    
+    jump playground_end
+    
+    $ Melody+=1
+
+label offter_tower:
+    
+    jump playground_end
+
+label playground_end:
+    
+    "此处施工中。。"
     
     # 此处为游戏结尾。
 
