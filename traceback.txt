@@ -1,27 +1,21 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 298, in script
-    if memo:
-  File "game/script.rpy", line 298, in <module>
-    if memo:
-NameError: name 'memo' is not defined
+  File "game/script.rpy", line 538, in script
+    jump offer_tower
+ScriptError: could not find label 'offer_tower'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 298, in script
-    if memo:
-  File "D:\Renpy\renpy-6.99.13-sdk\renpy\ast.py", line 1681, in execute
-    if renpy.python.py_eval(condition):
-  File "D:\Renpy\renpy-6.99.13-sdk\renpy\python.py", line 1794, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "D:\Renpy\renpy-6.99.13-sdk\renpy\python.py", line 1788, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 298, in <module>
-    if memo:
-NameError: name 'memo' is not defined
+  File "game/script.rpy", line 538, in script
+    jump offer_tower
+  File "D:\Renpy\renpy-6.99.13-sdk\renpy\ast.py", line 1573, in execute
+    rv = renpy.game.script.lookup(target)
+  File "D:\Renpy\renpy-6.99.13-sdk\renpy\script.py", line 871, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'offer_tower'.
 
 Windows-8-6.2.9200
-Ren'Py 6.99.13.2919
+Ren'Py 6.99.14.3135
 Melody 1.0
